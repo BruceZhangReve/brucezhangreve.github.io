@@ -39,15 +39,65 @@ const useDarkMode = () => useContext(DarkModeContext);
 // ================ Placeholder Data ================
 const PERSONAL_DATA = {
   name: 'Lige Zhang',
-  title: 'Incoming PhD Student @ Emory University | Computer Science and Informatics',
-  bio: 'I am a passionate researcher focusing on Machine Learning and its application to Healthcare. I am currently an undergraduate student at Duke Kunshan University.',
+  title: 'PhD Student @ Emory University | Computer Science and Informatics',
+  bio: (
+  <>
+    I am a passionate researcher focusing on Machine Learning and its applications to Healthcare.
+    I am currently a graduate student at Emory University. I graduated from Duke Kunshan University
+    (DKU) in Spring 2026.
+
+    Previously, I worked with{" "}
+    <a
+      href="https://faculty.dukekunshan.edu.cn/faculty_profiles/dongmian-zou"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Prof. Dongmian Zou
+    </a>{" "}
+    on geometric deep learning, including hyperbolic representation learning and hypergraph learning,
+    and with{" "}
+    <a
+      href="https://faculty.dukekunshan.edu.cn/faculty_profiles/huansheng-cao"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Prof. Huansheng Cao
+    </a>{" "}
+    on bioinformatics and drug repurposing at DKU. I also worked as a summer researcher with{" "}
+    <a
+      href="https://www.cs.yale.edu/homes/ying-rex/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Prof. Rex Ying
+    </a>{" "}
+    at Yale University, focusing on time series modeling and multi-modal integration.
+
+    Currently, I am supervised by{" "}
+    <a
+      href="https://www.cs.emory.edu/~wjin30/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Prof. Wei Jin
+    </a>{" "}
+    and work closely with{" "}
+    <a
+      href="https://www.cs.emory.edu/~jyang71/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Prof. Carl Yang
+    </a>{" "}
+    on foundation models for physiological signals and wearable sensing for healthcare.
+  </>
+),
   researchInterests: [
-    'Geometric Deep Learning',
-    'AI for Healthcare',
-    'Multi-Modal Learning',
-    'Time Series Analysis',
-    'Generative Models',
     'Foundatoin Models',
+    'AI for Healthcare',
+    'Time Series Analysis',
+    'Multi-Modal Learning',
+    'Geometric Deep Learning',
   ],
   education: [
     {
@@ -55,14 +105,14 @@ const PERSONAL_DATA = {
       degree: 'B.S. in Data Science',
       period: '2022 - 2026',
       location: 'Kunshan, China',
-      description: 'Still on my last session at DKU.'
+      description: 'Graduated on May 2026.'
     },
     {
-      institution: 'Emory University (Incoming Ph.D. Student)',
+      institution: 'Emory University',
       degree: 'Computer Science and Informatics',
       period: 'Starting in Fall 2026',
       location: 'Atlanta, USA',
-      description: 'To be started.'
+      description: '1st Year Ph.D. Student.'
     }
   ],
   experience: [
@@ -89,6 +139,19 @@ const PERSONAL_DATA = {
     }
   ],
   publications: [
+    {
+      year: 2026,
+      items: [
+        {
+          title: 'Deep Learning for Health Time Series: Physiological Signals, Clinical Records, and Epidemic Dynamics',
+          authors: 'Lige Zhang, Ziwei Huang, Xiaoda Wang, Gelei Xu, Xiao Hu, Carl Yang, Wei Jin.',
+          venue: 'preprint',
+          status: 'Under Review',
+          link: 'https://ignite-abd.github.io/projects/ts4health.pdf',
+          code: 'https://github.com/BruceZhangReve/Deep-Learning-for-Health-Time-Series'
+        }
+      ]
+    },
     {
       year: 2026,
       items: [
