@@ -149,12 +149,7 @@ const PERSONAL_DATA = {
           status: 'Under Review',
           link: 'https://ignite-abd.github.io/projects/ts4health.pdf',
           code: 'https://github.com/BruceZhangReve/Deep-Learning-for-Health-Time-Series'
-        }
-      ]
-    },
-    {
-      year: 2026,
-      items: [
+        },
         {
           title: 'Multi-Modal Time Series Prediction via Mixture of Modulated Experts',
           authors: 'Zhang, Lige., Chen, Jialin., Maatouk, Ali., Tassiulas, Leandros., Ying, Rex.',
