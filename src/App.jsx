@@ -225,10 +225,10 @@ const PERSONAL_DATA = {
     },
   ],
   contact: {
-    email: 'lz245@duke.edu',
+    email: 'lige.zhang@emory.edu',
     github: 'https://github.com/BruceZhangReve',
     linkedin: '#',
-    location: 'Kunshan, China',
+    location: 'Atlanta, USA',
     googleScholar: 'https://scholar.google.com/citations?user=eKHJrWAAAAAJ&hl=en',
     orcid: '#'
   }
